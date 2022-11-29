@@ -1,0 +1,249 @@
+*{
+    font-family: 'Oswald', sans-serif;
+}
+.container{
+    background: linear-gradient(to right,#191716, #640D0F);
+    width: 100%;
+    max-width: 100%;
+}
+.titulo{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: aliceblue;
+}
+
+.patron{
+    margin-top: 35px;
+    margin-left: 185px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-style: italic;
+    color: aliceblue;
+}
+
+.txt-1{
+    text-align: justify;
+    padding-right: 10px;
+    color: aliceblue;
+}
+.playerone{
+    width:270px;
+    height:270px;
+    border-radius:160px;
+    border:3px solid #ffefeffa;
+    margin-left: 30px;
+}
+
+.playertwo{
+    width:270px;
+    height:270px;
+    border-radius:160px;
+    border:3px solid #ffefeffa;
+    margin-left: 35px;
+}
+
+.text-playerone{
+    margin-left: 130px;
+    margin-top: 10px;
+    color: snow;
+}
+
+.text-playertwo{
+    margin-left: 135px;
+    margin-top: 10px;
+    color: snow;
+}
+
+.consejo-1{
+    font-size: 30px;
+    margin-top: 110px;
+}
+
+.video-1{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+hr{
+    color: #640D0F;
+}
+.text-2{
+    text-align: justify;
+    margin-top: 20px;
+}
+.container-xl{
+    margin-left: 0px;
+    background: linear-gradient(to left,#051b09, #0e9c5f);
+    width: 100%;
+    max-width: 100%;
+}
+.version{
+    text-align: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+    color: snow;
+}
+.card{
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+
+.fecha{
+    font-size: small;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.card-text{
+    text-align: justify;
+    font-size: 13px;
+}
+
+.tit-rut{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    color: snow;
+}
+
+.text-rut{
+    text-align: justify;
+    color: snow;
+    margin-left: 50px;
+    margin-top: 45px;
+    margin-right: 40px;
+}
+
+.ret-mal{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 35px;
+    color: snow;
+}
+.vid-2{
+    margin-top: 30px;
+    margin-bottom: 190px;
+}
+
+.kills{
+    color: snow;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 40px;
+}
+
+.more-kills{
+    color: snow;
+    margin-top: 100px;
+    text-align: justify;
+    margin-right: 55px;
+}
+
+.vid-3{
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+
+.tit-arm{
+    color: snow;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-top: 50px;
+    text-align: center;
+}
+/*footer*/
+.pie-pagina{
+    width: 100%;
+    background-color: #1f070a;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #38090f;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: rgb(255, 0, 0);
+}
+.pie-pagina .grupo-2{
+    background-color: #000000;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+
+.btn-install{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: rgb(187, 13, 57);
+    color:#fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+
+.btn-install:hover{
+    text-decoration: none;
+    color: black;
+    background: #ee8a8f;
+}
+
+.arrow-install{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 4px;
+}
